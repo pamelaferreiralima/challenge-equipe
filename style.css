@@ -16,6 +16,7 @@ header {
 }
 header img {
   width: 100px;
+  margin-top:10em;
 }
 ul {
     list-style: none;
@@ -40,6 +41,7 @@ main{
 
     position: relative;
     animation: yoda 1s linear 3s infinite normal both;
+    margin-top: 5em;
 }
 @keyframes yoda {
     0%{
@@ -62,4 +64,7 @@ main{
         right: 10px;
         transform: rotate(5deg);
     }
+}
+footer h2{
+    text-align: center;
 }
