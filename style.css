@@ -3,13 +3,15 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
+body{
+    background-color: blueviolet;
+}
+header {
   width: 100vw;
-  height: 100vh;
+  height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: blueviolet;
 }
 header img {
   width: 100px;
@@ -17,13 +19,46 @@ header img {
 ul {
     list-style: none;
     width: 50vw;
-    height: 30vh;
-    
+    height: 20vh;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
     color: white;
     font-size: 1.4vw;
     font-weight: bold;
+}
+main{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.yoda{
+
+    position: relative;
+    animation: yoda 1s linear 3s infinite normal both;
+}
+@keyframes yoda {
+    0%{
+        top: 0;
+        left: 10px;
+        transform: rotate(5deg);
+    }
+    25%{
+        top: 0;
+        right: 10px;
+        transform: rotate(10deg);
+    }
+    50%{
+        top: 0;
+        left: 10px;
+        transform: rotate(5deg);
+    }
+    100%{
+        top: 0;
+        right: 10px;
+        transform: rotate(5deg);
+    }
 }
