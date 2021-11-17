@@ -1,1 +1,1 @@
-alert("Bem vindo(a) ao nosso site");
+alert("Seja bem-vindx ao nosso projeto :P")
