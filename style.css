@@ -70,3 +70,12 @@ main h1{
 footer h2{
     text-align: center;
 }
+footer div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    color: #fff;
+}
+.mini-mario {
+    width: 10vw;
+}
